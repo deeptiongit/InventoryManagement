@@ -125,8 +125,8 @@ def extract(invoice_text):
         return json_str
 
 
-INPUT_DIR = "/kaggle/input/company-documents-dataset/CompanyDocuments/Shipping Orders"
-OUTPUT_DIR  = "/home/Shipping-Orders-jsons"
+INPUT_DIR = "/path/to/company-documents-dataset/CompanyDocuments/Shipping Orders"
+OUTPUT_DIR  = "/save/to/Shipping-Orders-jsons"
 
 if not os.path.exists(OUTPUT_DIR):
     os.makedirs(OUTPUT_DIR)
